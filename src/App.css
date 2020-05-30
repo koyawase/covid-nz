@@ -1,27 +1,57 @@
+.title {
+  display: flex;
+}
+
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2.5em;
+  align-items: center;
+}
+
+.title-covid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-c {
+  margin-right: -8px;
+}
+
+.title-vid {
+  margin-left: -8px;
+  margin-right: 10px;
 }
 
 .App-logo {
-    height: 40vmin;
-    pointer-events: none;
+  height: 10vmin;
+  pointer-events: none;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 900px) {
+  .App-logo {
+    height: 5vmin;
   }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
+  to {
+    transform: rotate(360deg);
+  }
+}
