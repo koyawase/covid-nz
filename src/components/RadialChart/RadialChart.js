@@ -11,13 +11,13 @@ const RadialChart = ({category, total, color, label}) => {
     return (
         <div className="radial-chart-container">
         <RadialBarChart
-          width={140}
-          height={140}
-          cx={70}
-          cy={70}
+          width={130}
+          height={130}
+          cx={65}
+          cy={65}
           innerRadius={50}
           outerRadius={150}
-          barSize={20}
+          barSize={15}
           data={data}
         >
           <PolarAngleAxis
