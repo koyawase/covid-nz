@@ -3,7 +3,7 @@ import React from "react";
 import {
   CaseDisplay,
   CountryPicker,
-  LineChart,
+  LineChartTracker,
   StackedHorizontalBarChart
 } from "./components";
 
@@ -26,6 +26,7 @@ class App extends React.Component {
     return (
       <div className="container">
         <CaseDisplay data={data} />
+        <LineChartTracker />
       </div>
     );
   }
